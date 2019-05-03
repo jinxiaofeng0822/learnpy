@@ -1,3 +1,3 @@
-import webcrawler.commonCrawler
+from webcrawler import commonCrawler
 
-print(webcrawler.commonCrawler.commonGet("https://www.amazon.cn/gp/product/B07JZFRCTJ"))
+print(commonCrawler.commonGet("https://www.amazon.cn/gp/product/B07JZFRCTJ"))
